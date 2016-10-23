@@ -23,6 +23,18 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		A367765C1DBC676B00B5605B /* CloverGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367765B1DBC676B00B5605B /* CloverGo.framework */; };
+		A36776601DBC9EDC00B5605B /* G4XSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367765D1DBC9EDC00B5605B /* G4XSwiper.framework */; };
+		A36776611DBC9EDC00B5605B /* RPx_BLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367765E1DBC9EDC00B5605B /* RPx_BLE.framework */; };
+		A36776621DBC9EDC00B5605B /* RUA_BLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367765F1DBC9EDC00B5605B /* RUA_BLE.framework */; };
+		A36776641DBCA64A00B5605B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36776631DBCA64A00B5605B /* Foundation.framework */; };
+		A36776661DBCA65700B5605B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36776651DBCA65700B5605B /* CoreBluetooth.framework */; };
+		A36776681DBCA66400B5605B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36776671DBCA66400B5605B /* MobileCoreServices.framework */; };
+		A367766A1DBCA67100B5605B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36776691DBCA67100B5605B /* SystemConfiguration.framework */; };
+		A367766C1DBCA67D00B5605B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367766B1DBCA67D00B5605B /* MediaPlayer.framework */; };
+		A367766E1DBCA68A00B5605B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367766D1DBCA68A00B5605B /* AudioToolbox.framework */; };
+		A36776701DBCA69500B5605B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A367766F1DBCA69500B5605B /* AVFoundation.framework */; };
+		A36776721DBCA6A200B5605B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A36776711DBCA6A200B5605B /* libstdc++.6.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +139,18 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A367765B1DBC676B00B5605B /* CloverGo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloverGo.framework; path = "../../../lib/CloverGoSDK-iOS/CloverGo.framework"; sourceTree = "<group>"; };
+		A367765D1DBC9EDC00B5605B /* G4XSwiper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = G4XSwiper.framework; path = "../../../lib/CloverGoSDK-iOS/Dependent Frameworks/G4XSwiper.framework"; sourceTree = "<group>"; };
+		A367765E1DBC9EDC00B5605B /* RPx_BLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RPx_BLE.framework; path = "../../../lib/CloverGoSDK-iOS/Dependent Frameworks/RPx_BLE.framework"; sourceTree = "<group>"; };
+		A367765F1DBC9EDC00B5605B /* RUA_BLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RUA_BLE.framework; path = "../../../lib/CloverGoSDK-iOS/Dependent Frameworks/RUA_BLE.framework"; sourceTree = "<group>"; };
+		A36776631DBCA64A00B5605B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A36776651DBCA65700B5605B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A36776671DBCA66400B5605B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A36776691DBCA67100B5605B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A367766B1DBCA67D00B5605B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A367766D1DBCA68A00B5605B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A367766F1DBCA69500B5605B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A36776711DBCA6A200B5605B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +166,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36776721DBCA6A200B5605B /* libstdc++.6.tbd in Frameworks */,
+				A36776701DBCA69500B5605B /* AVFoundation.framework in Frameworks */,
+				A367766E1DBCA68A00B5605B /* AudioToolbox.framework in Frameworks */,
+				A367766C1DBCA67D00B5605B /* MediaPlayer.framework in Frameworks */,
+				A367766A1DBCA67100B5605B /* SystemConfiguration.framework in Frameworks */,
+				A36776681DBCA66400B5605B /* MobileCoreServices.framework in Frameworks */,
+				A36776661DBCA65700B5605B /* CoreBluetooth.framework in Frameworks */,
+				A36776641DBCA64A00B5605B /* Foundation.framework in Frameworks */,
+				A36776601DBC9EDC00B5605B /* G4XSwiper.framework in Frameworks */,
+				A36776611DBC9EDC00B5605B /* RPx_BLE.framework in Frameworks */,
+				A36776621DBC9EDC00B5605B /* RUA_BLE.framework in Frameworks */,
+				A367765C1DBC676B00B5605B /* CloverGo.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -293,6 +329,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CloverGoReactNativeDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				A367765A1DBC676A00B5605B /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -305,6 +342,25 @@
 				00E356EE1AD99517003FC87E /* CloverGoReactNativeDemoTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A367765A1DBC676A00B5605B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36776711DBCA6A200B5605B /* libstdc++.6.tbd */,
+				A367766F1DBCA69500B5605B /* AVFoundation.framework */,
+				A367766D1DBCA68A00B5605B /* AudioToolbox.framework */,
+				A367766B1DBCA67D00B5605B /* MediaPlayer.framework */,
+				A36776691DBCA67100B5605B /* SystemConfiguration.framework */,
+				A36776671DBCA66400B5605B /* MobileCoreServices.framework */,
+				A36776651DBCA65700B5605B /* CoreBluetooth.framework */,
+				A36776631DBCA64A00B5605B /* Foundation.framework */,
+				A367765D1DBC9EDC00B5605B /* G4XSwiper.framework */,
+				A367765E1DBC9EDC00B5605B /* RPx_BLE.framework */,
+				A367765F1DBC9EDC00B5605B /* RUA_BLE.framework */,
+				A367765B1DBC676B00B5605B /* CloverGo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -613,6 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = T7ESHTLTU2;
@@ -638,6 +695,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T7ESHTLTU2;
 				HEADER_SEARCH_PATHS = (
