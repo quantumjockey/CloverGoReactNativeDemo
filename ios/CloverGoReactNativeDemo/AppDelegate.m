@@ -8,7 +8,8 @@
  */
 
 #import "AppDelegate.h"
-
+#import <AVFoundation/AVFoundation.h>
+#import "MediaPlayer/MPVolumeView.h"
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
 
@@ -16,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  // Initialize view components
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];

@@ -8,6 +8,7 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <CloverGo/CloverGo.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
